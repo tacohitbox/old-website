@@ -28,6 +28,7 @@ if (localStorage.getItem("noplay")) {
 
 function playSound(url, bypass) {
   if (localStorage.getItem("noplay") == "y" && !bypass) {return;}
+  if (document.querySelectorAll("audio").length > 9) {return;}
   var p = document.createElement("audio");
   p.src = url;
   document.querySelector("body").append(p);
