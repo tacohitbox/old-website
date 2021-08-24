@@ -1,2 +1,2 @@
 # tacohitbox.com
-My main website.
+Main website for my projects.
