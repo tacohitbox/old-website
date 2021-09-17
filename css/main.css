@@ -9,6 +9,14 @@ a {
   color:white;
 }
 
+button {
+  background:#652d87;
+  border:0;
+  cursor:pointer;
+  padding:3px;
+  color:white;
+}
+
 .nm {
   margin:0;
 }
@@ -42,10 +50,6 @@ a {
 
 .header a button {
   background:#282828;
-  color:white;
-  border:0;
-  cursor:pointer;
-  padding:3px;
 }
 
 .header a button:hover,
