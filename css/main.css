@@ -40,6 +40,19 @@ a {
   text-decoration:none;
 }
 
+.header a button {
+  background:#282828;
+  color:white;
+  border:0;
+  cursor:pointer;
+  padding:3px;
+}
+
+.header a button:hover,
+.header a button:focus {
+  background:#535353;
+}
+
 .header h2 {
   cursor:pointer;
   margin:0;
