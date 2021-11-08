@@ -76,3 +76,9 @@ button {
   margin-top:2px;
   margin-bottom:2px;
 }
+
+@media (max-width:545px) {
+  iframe {
+    width:100%;
+  }
+}
